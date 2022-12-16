@@ -50,7 +50,7 @@
                             <a href="https://scholar.google.com/citations?user=WOB5AusAAAAJ&hl=en&oi=sra">Google
                                 Scholar</a>
                             &nbsp/&nbsp
-                            <!--<a href="https://github.com/JiangWenPL">GitHub</a>&nbsp/&nbsp-->
+                            <a href="https://github.com/JiangWenPL">GitHub</a>&nbsp/&nbsp
                             <a href="https://www.linkedin.com/in/wen-jiang-058514125/"> LinkedIn </a>
                         </p>
                     </td>
@@ -86,7 +86,7 @@
                         <strong>Wen Jiang</strong>*, &nbsp
                         <a href="https://cis.upenn.edu/~kostas">Kostas Daniilidis</a>
                         <br>
-                        arxiv preprint
+                        arxiv preprint, 2022
                         <br>
 <!--                        <a href="https://jiangwenpl.github.io/multiperson/">Project Page</a>-->
                         <a href="https://arxiv.org/abs/2212.03370">arxiv</a>
@@ -97,6 +97,49 @@
                         <a href="data/Jiang2020MPShape.bib">Bibtex</a>
                         <p></p>
                         <p>We propose a novel method for 3D shape completion from a partial observation of a point cloud.</p>
+                    </td>
+                </tr>
+                <tr onmouseout="tmvpose_stop()" onmouseover="tmvpose_start()">
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div class="one">
+                            <div class="two" id="tmvpose_image" style="opacity: 0;"><video width="100%" height="100%" muted="" autoplay="" loop="">
+                                <source src="images/tmvpose_resize.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video></div>
+                            <img src="images/tmvpose.jpg" width="160">
+                        </div>
+                        <script type="text/javascript">
+                            function tmvpose_start() {
+                                document.getElementById('tmvpose_image').style.opacity = "1";
+                            }
+
+                            function tmvpose_stop() {
+                                document.getElementById('tmvpose_image').style.opacity = "0";
+                            }
+                            tmvpose_stop()
+                        </script>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://ieeexplore.ieee.org/document/9492024">
+                            <papertitle>Fast and Robust Multi-Person 3D Pose Estimation and Tracking from Multiple Views</papertitle>
+                        </a>
+                        <br>
+                        <a href="http://jtdong.com/">Junting Dong</a>,&nbsp
+                        <a href="https://raypine.github.io/"> Qi Fang</a>,&nbsp
+                        <strong>Wen Jiang</strong>,&nbsp
+                        <a href="https://www.ri.cmu.edu/ri-people/yurou-yang/"> Yurou Yang</a>,&nbsp
+                        <a href="https://www.cs.utexas.edu/~huangqx/">Qixing Huang</a>,&nbsp
+                        <a href="http://www.cad.zju.edu.cn/home/bao/">Hujun Bao</a>,&nbsp
+                        <a href="http://www.cad.zju.edu.cn/home/xzhou/">Xiaowei Zhou</a>
+                        <br>
+                        <em>T-PAMI</em>, 2021
+                        <br>
+                        <a href="https://zju3dv.github.io/mvpose/">Project page</a> /
+                        <a href="https://zju3dv.github.io/mvpose/egpaper_supplementary.pdf">Supplementary</a> /
+                        <a href="https://github.com/zju3dv/mvpose">Code</a> /
+                        <a href="data/tmvpose.bib">Bibtex</a>
+                        <p></p>
+                        <!--              <p>Extend the Mvpose with temporal tracking and filtering.</p>-->
                     </td>
                 </tr>
                 <tr onmouseout="multiperson_stop()" onmouseover="multiperson_start()">
@@ -160,7 +203,7 @@
                         <a href="http://www.cad.zju.edu.cn/home/bao/">Hujun Bao</a>,&nbsp
                         <a href="http://www.cad.zju.edu.cn/home/xzhou/">Xiaowei Zhou</a>
                         <br>
-                        <em>CVPR</em>, 2020 &nbsp
+                        <em>CVPR</em>, 2020 Oral presentation&nbsp
                         <br>
                         <a href="https://arxiv.org/abs/2001.01629">Arxiv</a> /
                         <a href="https://github.com/zju3dv/snake">Code</a> /
